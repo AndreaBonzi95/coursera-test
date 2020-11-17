@@ -2,16 +2,28 @@
 		text-align: center;
 		display: block;
 		color: white;
+		font-size: 20px;
 		background-color: blue;
 		border: 2px solid black;
 		opacity: 0.7;
 	}
-	img {
+	#PolitecnicoDiMilano {
 		display: block;
  	 	margin-left: auto;
   		margin-right: auto;
   		margin-top: 10px;
   		margin-bottom: 10px;
+  		border: 3px solid black;
+	}
+	.BottomImages{
+		width: 50%;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		border: 5px solid black;
+		float: left;
+		margin-top: 20px;
+		margin-bottom:20px;
 	}
 	h1 {
 		color: red;
@@ -41,6 +53,7 @@
 		color: blue;
 		font-size: 15px;
 		text-align: center;
+		clear: left;
 	}
 	h4 > ol {
 		color: black;
@@ -54,6 +67,9 @@
 		margin-top: 20px;
 		margin-left: 20px;
 		margin-right: 20px;
+	}
+	body {
+		background-image: url("https://i.pinimg.com/originals/e1/41/10/e141104d904db44a84f2d16a86d2ae12.jpg");
 	}
 
 	h3 ol {
