@@ -1,0 +1,76 @@
+	#Top {
+		text-align: center;
+		display: block;
+		color: white;
+		background-color: blue;
+		border: 2px solid black;
+		opacity: 0.7;
+	}
+	img {
+		display: block;
+ 	 	margin-left: auto;
+  		margin-right: auto;
+  		margin-top: 10px;
+  		margin-bottom: 10px;
+	}
+	h1 {
+		color: red;
+		opacity: 0.7;
+		font-size: 40px;
+		text-align: center;
+		font-weight: bold;
+		background-color: yellow;
+		border: 2px solid red;
+	}
+	.WithOverBlue {
+		border: 2px solid black;
+		color: white;
+		background-color: blue;
+		font-size: 24px;
+		text-align: center;
+		opacity: 0.7;
+	}
+	footer {
+		color: white;
+		background-color: blue;
+		font-size: 15px;
+		text-align: right;
+		opacity: 0.4;
+	}
+	h5 {
+		color: blue;
+		font-size: 15px;
+		text-align: center;
+	}
+	h4 > ol {
+		color: black;
+		font-weight: lighter;
+		font-size: 18px;
+		font-style: italic;
+		text-align: all;
+		border-width: 250px;
+	}
+	h4 li {
+		margin-top: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	h3 ol {
+		list-style: none;
+	}
+	h3 li {
+		display: block;
+		background-color: cyan;
+		text-align: center;
+		margin-left: 0px;
+		margin-right: 30px;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		border: 2px solid blue;
+	}
+	h3 li:hover, h3 li:active {
+		cursor: pointer;
+		background-color: white;
+		border: 2px solid cyan;
+	}
