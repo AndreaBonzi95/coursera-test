@@ -135,3 +135,83 @@
 	#MyChalk:active, #MyEraser:active {
 		cursor: grabbing;
 	}
+
+	@media (min-width: 1200px) {
+		.col-bd-1, .col-bd-2, .col-bd-3, .col-bd-4, .col-bd-5, .col-bd-6, .col-bd-7, .col-bd-8, .col-bd-9, .col-bd-10, .col-bd-11, .col-bd-12 {
+			float: left;
+			border: 1px solid black;
+			background-color: white;
+			margin: 0;
+			box-sizing: border-box;
+			height: 100px;
+			text-align: center;
+			font-weight: bold;
+			font-size:20px;
+			font-style: italic;
+		}
+		.col-bd-1 {
+			width: 8.33%;
+		}
+		.col-bd-2 {
+			width: 12.5%;
+		}
+		.col-bd-3 {
+			width: 33.33%;
+		}
+		.col-bd-4 {
+			width: 25%;
+		}
+		.col-bd-6 {
+			width: 50%;
+		}
+		.col-bd-12 {
+			width: 100%;
+		}
+	}
+
+	@media (min-width: 800px) and (max-width: 1199px) {
+		.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+			float: left;
+			border: 1px solid black;
+			background-color: white;
+			margin: 0;
+			box-sizing: border-box;
+			height: 100px;
+			text-align: center;
+			font-weight: bold;
+			font-size:20px;
+			font-style: italic;
+		}
+		.col-md-1 {
+			width: 8.33%;
+		}
+		.col-md-2 {
+			width: 12.5%;
+		}
+		.col-md-3 {
+			width: 33.33%;
+		}
+		.col-md-4 {
+			width: 25%;
+		}
+		.col-md-6 {
+			width: 50%;
+		}
+		.col-md-12 {
+			width: 100%;
+		}
+	}
+
+	@media (max-width: 799px) {
+		#ResponsiveDesign p	{
+			border: 1px solid black;
+			background-color: white;
+			margin: 0;
+			box-sizing: border-box;
+			height: 100px;
+			text-align: center;
+			font-weight: bold;
+			font-size:20px;
+			font-style: italic;
+		}
+	}
